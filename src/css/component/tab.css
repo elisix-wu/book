@@ -1,0 +1,55 @@
+.tab-container {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 2px solid #000;
+}
+
+.tab-controls {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.tab-controls:after,
+.tab-controls:before {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.tab-controls .tab-btn {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.tab-controls .tab-btn+.tab-btn {
+    border-left: 1px solid #eee;
+}
+
+.tab-controls .tab-btn.active,
+.tab-controls .tab-btn:hover {
+    background: #eee;
+}
+
+.tab-warpper {
+    position: relative;
+    width: 100%;
+    height: 460px;
+}
+
+.tab-warpper .tab-view {
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  
+}
+

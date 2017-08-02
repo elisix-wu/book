@@ -1,0 +1,14 @@
+require.config({
+    paths:{
+        jquery:'lib/jquery',
+        bootstrap:'lib/bootstrap',
+        Mock:'lib/mock',
+        tem:'lib/template-web',
+        lazyImage:'lib/EasyLazyload',
+        canvas:'moduls/canvas'
+    },
+    shim:{
+        bootstrap:['jquery'],
+        lazyImage:['jquery']
+    }
+})

@@ -1,0 +1,352 @@
+nav {
+    background-color: white!important;
+}
+
+nav .width-limit {
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav .width-limit .navbar-brand a{
+    font-size: 25px;
+    color: #ea6f5a;
+}
+nav .width-limit .login {
+    height: 51px;
+    line-height: 51px;
+    font-size: 16px;
+    color: #969696;
+    cursor: pointer;
+}
+
+nav .width-limit .registered {
+    width: 80px;
+    height: 38px;
+    margin: 6px 5px 0 15px;
+    line-height: 34px;
+    border: 1px solid rgba(236, 97, 73, .7);
+    border-radius: 4px;
+    font-size: 15px;
+    color: #ea6f5a;
+    text-align: center;
+}
+
+nav .width-limit .write {
+    width: 100px;
+    height: 38px;
+    margin: 6px 15px 0;
+    background-color: #ea6f5a;
+    line-height: 34px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+nav .width-limit .nav li a{
+    font-size: 18px;
+}
+nav .width-limit .nav li a span{
+    font-size: 18px;
+}
+nav .width-limit .nav li a.index{
+    color: #ea6f5a;
+}
+nav .width-limit .nav li a.app{
+    color: #333;
+}
+nav .width-limit .nav li.form-box{
+    margin-top: 6px;
+    margin-left: 30px;
+}
+nav .width-limit .nav li form{
+    position: relative;
+    min-width: 240px;
+    max-width: 380px;
+    height: 38px;
+    padding: 0 8%;
+    
+    background-color: #eee;
+    border-radius: 19px;
+}
+nav .width-limit .nav li form input{
+    height: 100%;
+    background-color: #eee;
+    border: none;
+}
+
+nav .width-limit .nav li form .search{
+    width: 80%;
+}
+nav .width-limit .nav li form .search-btn{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    width: 30px;
+    height: 30px;
+    color: #969696;
+    text-align: center;
+    border-radius: 15px;
+}
+nav .width-limit .nav li form input:focus{
+    outline: none;
+}
+
+.modal .modal-dialog .modal-content .modal-title{
+    text-align: center;
+}
+.modal .modal-dialog .modal-content .modal-title a{
+    display: inline-block;
+    height: 50px;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.modal .modal-dialog .modal-content .modal-title a.active{
+    border-bottom: 2px solid #ea6f5a;
+}
+
+.modal .modal-dialog .modal-content .modal-body form .btn{
+    width: 100%;
+}
+.modal .modal-dialog .modal-content .shows{
+    display: none;
+}
+
+
+/**nav end**/
+
+.global-loading {
+    z-index: 999;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+}
+.banner{
+    position: relative;
+    /*height: 272px;*/
+    margin-top: 51px;
+}
+.banner:hover{
+    opacity: .9;
+}
+.banner .carousel-inner{
+    width: 100%;
+    height: auto;
+}
+.banner .carousel-inner .item{
+    width: 100%;
+    height: auto;
+}
+.banner .carousel-inner .item img{
+    width: 100%;
+    height: auto;
+}
+.banner:hover .carousel-control{
+    display: block;
+}
+.banner .carousel-control{
+    display: none;
+    background: no-repeat;
+}
+
+.banner .carousel-control i{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 50px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.banner .carousel-control i.fa-angle-left{
+    left: 15px;
+}
+.banner .carousel-control i.fa-angle-right{
+    right: 15px;
+}
+
+/**banner end**/
+
+
+.main .row{
+    background-color: white;
+    z-index: 99;
+}
+.main .content .recommend-collection a {
+    float: left;
+    margin: 10px 15px 10px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+}
+
+.main .content .recommend-collection a img {
+    width: 32px;
+}
+
+.main .content .recommend-collection a span {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+
+
+
+.captions .my-caption{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    padding: 17px 2px 17px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.captions .my-caption .caption-detail{
+    width:437px;
+    display: flex;
+    flex-direction: column;
+}
+
+.captions .my-caption .caption-detail .user-info{
+    display: flex;
+    align-items: center;
+}
+.caption-detail .user-info .user-face{
+    width: 32px;
+    height: 32px;
+}
+.caption-detail .user-info  .user-face img{
+    width: 32px;
+    height: 32px;
+}
+.caption-detail .user-info .user-name{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.captions .my-caption .caption-image{
+    width: 150px;
+ 
+}
+
+.captions .my-caption .caption-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+ aside .list-group li{
+    border: none;
+}
+ aside .list-group li img{
+    width: 100%;
+}
+ aside .download{
+    position: relative;
+    margin-bottom: 20px;
+}
+ aside .download a img{
+     width: 100%;
+     height: auto;
+}
+ aside .download .btn-group{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+ aside .download .btn-group .btn{
+    margin: 0 5px;
+    color: #fff;
+}
+ aside .download .btn-group .qr-btn{
+    position: relative;
+    background: #999;
+}
+aside .download .btn-group .qr-btn .sm-img{
+    display: none;
+    position: absolute;
+    top: -120px;
+    left: -30px;
+    width: 200%;
+    z-index: 3;
+}
+aside .download .btn-group .qr-btn:hover .sm-img{
+    display: block;
+}
+ aside .download .btn-group .apple-btn{
+    background: #6ba1e0;
+}
+ aside .download .btn-group .android-btn{
+    background: #7caf49;
+}
+
+
+
+
+.autho-box .autho-title {
+    display: flex;
+    align-items: center;
+}
+
+.autho-box .autho-title h5 {
+    flex-grow: 5;
+}
+
+.autho-box .autho-title .page-num {
+    flex-grow: 1;
+}
+
+
+
+.autho-box .autho-list li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.autho-box .autho-list li .autho-face {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.autho-box .autho-list li .autho-detail {
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.autho-box .autho-list li .autho-detail h6 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.autho-box .autho-list li .autho-detail p {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+    color: #2e2e2e;
+}
+
+.autho-box .autho-list li .guanzhu {
+    color:rgb(0, 240, 0)
+}
+
+.autho-box .autho-list li .autho-face img {
+    width: 100%;
+}
